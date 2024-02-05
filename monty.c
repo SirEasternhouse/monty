@@ -23,6 +23,7 @@ void execute_monty(FILE *fp)
 		{"pop", pop_ele},
 		{"swap", swap_elem},
 		{"add", add_elem},
+		{"nop", non_func},
 		{"", NULL} /* Terminate with a null opcode*/
 	};
 
