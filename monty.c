@@ -21,6 +21,7 @@ void execute_monty(FILE *fp)
 		{"pall", print_elem},
 		{"pint", pint_top},
 		{"pop", pop_ele},
+		{"swap", swap_elem},
 		{"", NULL} /* Terminate with a null opcode*/
 	};
 

@@ -38,5 +38,7 @@ void print_elem(stack_t **stack, unsigned int line_number);
 void execute_monty(FILE *fp);
 void pint_top(stack_t **stack, unsigned int line_number);
 void pop_ele(stack_t **stack, unsigned int line_number);
+void swap_elem(stack_t **stack, unsigned int line_number);
+
 
 #endif
