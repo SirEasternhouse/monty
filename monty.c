@@ -19,6 +19,8 @@ void execute_monty(FILE *fp)
 	instruction_t instructions[] = {
 		{"push", push_elem},
 		{"pall", print_elem},
+		{"pint", pint_top},
+		{"pop", pop_ele},
 		{"", NULL} /* Terminate with a null opcode*/
 	};
 
